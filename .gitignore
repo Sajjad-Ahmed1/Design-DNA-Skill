@@ -1,0 +1,7 @@
+node_modules/
+design-report.html
+quality-report.json
+measured-colors.json
+.DS_Store
+coverage/
+*.log

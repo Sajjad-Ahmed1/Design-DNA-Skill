@@ -1,0 +1,14 @@
+{
+  "name": "sajjad-design-dna",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent skill and CLI design-system audit and export tools",
+  "scripts": {
+    "test": "node --test scripts/test/*.test.mjs",
+    "audit": "node scripts/audit.mjs examples/sample-dna.json",
+    "tokens": "node scripts/export-tokens.mjs examples/sample-dna.json --format dtcg",
+    "report": "node scripts/report.mjs examples/sample-dna.json --out design-report.html"
+  },
+  "engines": { "node": ">=20" }
+}

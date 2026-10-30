@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "name": "SAJJAD Demo — Dark Editorial",
+    "description": "Illustrative example only: manually authored tokens, NOT measured from a real third-party site.",
+    "source_references": ["original demonstration"],
+    "created_at": "2026-10-30"
+  },
+  "design_system": {
+    "color": {
+      "palette_type": "complementary",
+      "primary": {"hex": "#E66A3A", "role": "highlight"},
+      "secondary": {"hex": "#334155", "role": "support"},
+      "accent": {"hex": "#F4F2EE", "role": "text emphasis"},
+      "neutral": {"scale": ["#F4F2EE", "#CBD5E1", "#10121A"], "usage": "Light text on a charcoal background"},
+      "semantic": {"success": "#22C55E", "warning": "#EAB308", "error": "#EF4444", "info": "#38BDF8"},
+      "surface": {"background": "#10121A", "card": "#1F2937", "elevated": "#334155"},
+      "contrast_strategy": "high contrast"
+    },
+    "typography": {"font_families": {"heading": "IBM Plex Sans Arabic", "body": "IBM Plex Sans Arabic", "mono": "monospace"}},
+    "spacing": {"base_unit": "4px", "scale": ["4px", "8px", "12px", "16px", "24px", "32px"], "content_density": "comfortable"},
+    "layout": {"grid_system": "responsive CSS grid", "max_content_width": "1200px"},
+    "shape": {"border_radius": {"small": "8px", "medium": "12px", "large": "24px", "pill": "999px"}},
+    "motion": {"philosophy": "minimal functional"}
+  },
+  "design_style": {"aesthetic": {"genre": "premium editorial", "mood": ["confident", "calm", "modern"]}},
+  "visual_effects": {"overview": {"performance_tier": "lightweight", "fallback_strategy": "prefers-reduced-motion"}},
+  "sajjad_extensions": {
+    "version": "1.0",
+    "accessibility": {"text_color": "#F4F2EE", "large_text": false},
+    "localization": {"direction": "rtl", "languages": ["ar"], "arabic_font_reviewed": true, "directional_icons_reviewed": true},
+    "motion_accessibility": {"reduced_motion_fallback": true},
+    "evidence": [
+      {"path": "design_system.color.primary.hex", "method": "manually-authored", "confidence": 1},
+      {"path": "design_system.color.surface.background", "method": "manually-authored", "confidence": 1}
+    ],
+    "originality": {"reuse_principles_only": true}
+  }
+}
